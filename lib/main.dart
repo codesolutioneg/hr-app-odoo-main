@@ -26,6 +26,7 @@ class HrApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'HR App',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
         useMaterial3: true,
